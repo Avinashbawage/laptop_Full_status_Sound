@@ -106,7 +106,7 @@
         window.addEventListener('load', function () {
             navigator.getBattery().then(function (battery) {
                 battery.addEventListener('levelchange', function () {
-                    if (battery.level >= 0.60) {
+                    if (battery.level >= 0.95) {
                         playAlertSound();
                     }
                 });

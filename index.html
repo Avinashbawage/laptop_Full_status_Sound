@@ -108,6 +108,7 @@
                 battery.addEventListener('levelchange', function () {
                     if (battery.level >= 0.95) {
                         playAlertSound();
+                        alert("your laptop battery is Full Please unplug your laptop charger")
                     }
                 });
             });
